@@ -109,7 +109,7 @@ export default function CallToActionWithVideo() {
               w={'100%'}
               h={'98%'}
               src={
-                'librarian.png'
+                'librarian.webp'
               }
             />
           </Box>

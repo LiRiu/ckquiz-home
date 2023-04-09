@@ -13,6 +13,8 @@ import {
 import { FaGithub } from 'react-icons/fa';
 
 export default function CallToActionWithVideo() {
+  const appLink = "https://ckquiz-app.vercel.app/";
+  const docLink = "https://liriu.notion.site/CKQuiz-Docs-94d7897ddab04fdbae907194536f889d";
   
   return (
     <Container maxW={'7xl'} mt={100} mb={230}>
@@ -60,7 +62,9 @@ export default function CallToActionWithVideo() {
               px={6}
               colorScheme={'green.500'}
               bg={'green.300'}
-              _hover={{ bg: 'green.500' }}>
+              _hover={{ bg: 'green.500' }}
+              onClick={()=>{window.location.href={appLink}}}
+              >
               Get started
             </Button>
             <Button
@@ -68,7 +72,9 @@ export default function CallToActionWithVideo() {
               size={'lg'}
               fontWeight={'normal'}
               px={6}
-              leftIcon={<FaGithub />}>
+              leftIcon={<FaGithub />}
+              onClick={()=>{window.location.href={docLink}}}
+            >
               How It Works
             </Button>
           </Stack>

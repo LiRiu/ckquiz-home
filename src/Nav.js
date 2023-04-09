@@ -5,6 +5,9 @@ import { AcmeLogo } from "./AcmeLogo.js";
 
 export default function Nav() {
   const [variant] = React.useState("static");
+  const appLink = "https://ckquiz-app.vercel.app";
+  const githubLink = "https://github.com/liriu/ckquiz-app";
+  const docsLink = "https://liriu.notion.site/CKQuiz-Docs-94d7897ddab04fdbae907194536f889d";
   
   return (
     <Layout>
@@ -16,14 +19,15 @@ export default function Nav() {
           </Text>
         </Navbar.Brand>
         <Navbar.Content hideIn="xs" activeColor={'success'}>
-          <Navbar.Link isActive href="#">Launch</Navbar.Link>
-          <Navbar.Link href="#">Github</Navbar.Link>
+          <Navbar.Link isActive href={appLink}>Launch</Navbar.Link>
+          <Navbar.Link href={docsLink}>Docs</Navbar.Link>
+          <Navbar.Link href={githubLink}>Github</Navbar.Link>
           <Navbar.Link href="#roadmap">RoadMap</Navbar.Link>
         </Navbar.Content>
         <Navbar.Content>
           <Navbar.Item >
-            <Button auto flat as={Link} href="#" color="success">
-              Connect
+            <Button auto flat as={Link} href={appLink} color="success">
+              Create
             </Button>
           </Navbar.Item>
         </Navbar.Content>

@@ -7,7 +7,7 @@ import {
   useColorModeValue,
   VisuallyHidden,
 } from '@chakra-ui/react';
-import { FaGithub, FaTelegram, FaTwitter } from 'react-icons/fa';
+import { FaGithub, FaTelegram, FaBlog } from 'react-icons/fa';
 
 const SocialButton = ({
   children,
@@ -37,6 +37,10 @@ const SocialButton = ({
 };
 
 export default function Footer() {
+  const githubLink = 'https://github.com/liriu/ckquiz-app';
+  const telegramLink = 'https://t.me/LeezCoin';
+  const docsLink = 'https://liriu.notion.site/CKQuiz-Docs-94d7897ddab04fdbae907194536f889d';
+
   return (
     <Box
       bg={useColorModeValue('gray.50', 'gray.900')}
@@ -51,13 +55,13 @@ export default function Footer() {
         align={{ base: 'center', md: 'center' }}>
         <Text>© 2023 CKQuiz. All rights reserved</Text>
         <Stack direction={'row'} spacing={6}>
-          <SocialButton label={'Twitter'} href={'#'}>
-            <FaTwitter />
+          <SocialButton label={'Blog'} href={docsLink}>
+            <FaBlog />
           </SocialButton>
-          <SocialButton label={'Github'} href={'#'}>
+          <SocialButton label={'Github'} href={githubLink}>
             <FaGithub />
           </SocialButton>
-          <SocialButton label={'Telegram'} href={'#'}>
+          <SocialButton label={'Telegram'} href={telegramLink}>
             <FaTelegram />
           </SocialButton>
         </Stack>

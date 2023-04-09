@@ -1,13 +1,6 @@
-export const AcmeLogo = () => (
-  <svg
-    className=""
-    fill="none"
-    height="36"
-    viewBox="0 0 32 32"
-    width="36"
-    xmlns="http://www.w3.org/2000/svg"
-    version="1.1">  
-    <image id="image0" width="23" height="23" x="0" y="3"
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="23px" height="23px" viewBox="0 0 23 23" enable-background="new 0 0 23 23" xml:space="preserve">  <image id="image0" width="23" height="23" x="0" y="0"
     href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
 AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QA/wD/AP+gvaeTAAAG
 oklEQVRIxwXBaWxbBwHA8f+7bD/7Jb7tuk7SXG23tOm19aJ0QLuKiE4UkNBQJdi0IiHGviCk8Qlp
@@ -44,4 +37,3 @@ JXRFWHRkYXRlOmNyZWF0ZQAyMDIzLTA0LTA5VDA0OjAyOjIyKzAwOjAwEAFkcQAAACV0RVh0ZGF0
 ZTptb2RpZnkAMjAyMy0wNC0wOVQwNDowMjoyMiswMDowMGFc3M0AAAAodEVYdGRhdGU6dGltZXN0
 YW1wADIwMjMtMDQtMDlUMDQ6MDI6MjIrMDA6MDA2Sf0SAAAAAElFTkSuQmCC" />
 </svg>
-);

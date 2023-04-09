@@ -63,9 +63,9 @@ export default function CallToActionWithVideo() {
               colorScheme={'green.500'}
               bg={'green.300'}
               _hover={{ bg: 'green.500' }}
-              onClick={()=>{window.location.href={appLink}}}
+              onClick={()=>{window.open(appLink)}}
               >
-              Get started
+              Get Start
             </Button>
             <Button
               rounded={'full'}
@@ -73,7 +73,7 @@ export default function CallToActionWithVideo() {
               fontWeight={'normal'}
               px={6}
               leftIcon={<FaGithub />}
-              onClick={()=>{window.location.href={docLink}}}
+              onClick={()=>{window.open(docLink)}}
             >
               How It Works
             </Button>

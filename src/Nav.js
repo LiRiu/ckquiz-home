@@ -8,6 +8,8 @@ export default function Nav() {
   const appLink = "https://ckquiz-app.vercel.app";
   const githubLink = "https://github.com/liriu/ckquiz-app";
   const docsLink = "https://liriu.notion.site/CKQuiz-Docs-94d7897ddab04fdbae907194536f889d";
+  const faucetLink = "https://faucet.nervos.org/"
+  const bridgeLink = "https://testnet.bridge.godwoken.io/#/v1"
   
   return (
     <Layout>
@@ -23,6 +25,8 @@ export default function Nav() {
           <Navbar.Link href={docsLink}>Docs</Navbar.Link>
           <Navbar.Link href={githubLink}>Github</Navbar.Link>
           <Navbar.Link href="#roadmap">RoadMap</Navbar.Link>
+          <Navbar.Link href={faucetLink}>Faucet</Navbar.Link>
+          <Navbar.Link href={bridgeLink}>Github</Navbar.Link>
         </Navbar.Content>
         <Navbar.Content>
           <Navbar.Item >

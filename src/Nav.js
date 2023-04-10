@@ -26,7 +26,7 @@ export default function Nav() {
           <Navbar.Link href={githubLink}>Github</Navbar.Link>
           <Navbar.Link href="#roadmap">RoadMap</Navbar.Link>
           <Navbar.Link href={faucetLink}>Faucet</Navbar.Link>
-          <Navbar.Link href={bridgeLink}>Github</Navbar.Link>
+          <Navbar.Link href={bridgeLink}>Bridge</Navbar.Link>
         </Navbar.Content>
         <Navbar.Content>
           <Navbar.Item >
